@@ -101,7 +101,7 @@
   background-repeat: repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: text-bg 5s linear infinite alternate;
+  animation: text-bg 10s linear infinite alternate;
 }
 .music_bottom_icon {
   position: absolute;
@@ -153,7 +153,7 @@
     font-size: 50px;
  }
  .text_lg{
-    font-size: 20px;
+    font-size: 20px !important;
  }
  .logo {
   max-width: 300px;
