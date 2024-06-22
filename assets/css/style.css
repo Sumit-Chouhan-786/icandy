@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+    background-color: black !important;
+}
 .container {
   max-width: 1320px;
   margin: auto;
@@ -72,6 +75,9 @@
 .pt_16 {
   padding-top: 16px !important;
 }
+.pt_8{
+    padding-top: 8px;
+}
 
 .pt_20 {
   padding-top: 20px !important;
@@ -87,7 +93,7 @@
 }
 
 .text_4xl {
-  font-size: 34px;
+  font-size: 38px;
 }
 
 /* hero background */
@@ -95,18 +101,19 @@
   background-image: url("../image/hero-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .main_heading {
   padding-top: 8px;
   padding-bottom: 16x;
+  line-height: 110%;
   font-weight: 800 !important;
   background-image: url("../image/text-bg.webp");
   background-repeat: repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: text-bg 10s linear infinite alternate;
+  animation: text-bg 20s linear infinite alternate;
 }
 
 @keyframes text-bg {
@@ -152,6 +159,12 @@
   .text_4xl {
     font-size: 40px;
   }
+  .pt_sm_16{
+    padding-top: 16px;
+  }
+  .main_heading{
+    line-height: 150%;
+  }
 }
 @media (min-width: 768px) {
   .text_4xl {
@@ -180,6 +193,9 @@
     right: 40px;
     height: 70px;
     width: 70px;
+  }
+  .main_heading{
+    animation: text-bg 10s linear infinite alternate;
   }
 }
 @media (min-width: 1200px) {
