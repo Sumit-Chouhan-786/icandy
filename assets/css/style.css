@@ -4,8 +4,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-    background-color: black !important;
+body {
+  background-color: black !important;
 }
 .container {
   max-width: 1320px;
@@ -75,8 +75,8 @@ body{
 .pt_16 {
   padding-top: 16px !important;
 }
-.pt_8{
-    padding-top: 8px;
+.pt_8 {
+  padding-top: 8px;
 }
 
 .pt_20 {
@@ -113,7 +113,7 @@ body{
   background-repeat: repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: text-bg 20s linear infinite alternate;
+  animation: text-bg 25s linear infinite alternate;
 }
 
 @keyframes text-bg {
@@ -159,14 +159,17 @@ body{
   .text_4xl {
     font-size: 40px;
   }
-  .pt_sm_16{
+  .pt_sm_16 {
     padding-top: 16px;
   }
-  .main_heading{
-    line-height: 150%;
+  .main_heading {
+    line-height: auto;
   }
 }
 @media (min-width: 768px) {
+  .main_heading {
+    animation: text-bg 15s linear infinite alternate !important;
+  }
   .text_4xl {
     font-size: 50px;
   }
@@ -194,8 +197,8 @@ body{
     height: 70px;
     width: 70px;
   }
-  .main_heading{
-    animation: text-bg 10s linear infinite alternate;
+  .main_heading {
+    animation: text-bg 10s linear infinite alternate !important;
   }
 }
 @media (min-width: 1200px) {
