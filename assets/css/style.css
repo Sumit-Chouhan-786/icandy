@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.ff_Montserrat {
+  font-family: "Montserrat", "sans-serif";
+}
+.ff_open_sans {
+  font-family: "Open Sans", "sans-serif";
+}
+
+.text_white {
+  color: white;
+}
+
+.text_blue {
+  color: #0f63dd;
+}
+.position_relative {
+  position: relative;
+}
+.opacity_70 {
+  opacity: 70%;
+}
+.d_flex {
+  display: flex;
+}
+
+.justify_content_center {
+  justify-content: center;
+}
+
+.align_items_center {
+  align-items: center;
+}
+
+.flex_column {
+  flex-direction: column;
+}
+
+.logo {
+  width: 100%;
+  max-width: 200px;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.gap_16 {
+  gap: 16px;
+}
+
+.lh_normal {
+  line-height: 150%;
+}
+
+.max_w_500 {
+  max-width: 500px;
+}
+
+.pt_16 {
+  padding-top: 16px !important;
+}
+.px_20 {
+  padding: 0 16px;
+}
+
+.pt_20 {
+  padding-top: 20px !important;
+}
+
+.fw_semobold {
+  font-weight: 600;
+}
+
+.text_lg {
+  font-size: 16px;
+}
+
+.text_4xl {
+  font-size: 34px;
+}
+
+.hero_bg {
+  background-image: url("../image/hero-bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.heading {
+  padding-top: 8px;
+  padding-bottom: 16x;
+  font-weight: 800 !important;
+  background-image: url("../image/text-bg.webp");
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: text-bg 5s linear infinite alternate;
+}
+.music_bottom_icon {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  height: 70px;
+  width: 70px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16.6px 0px #8058b3;
+}
+
+@keyframes text-bg {
+  to {
+    background-position: 0%;
+  }
+  from {
+    background-position: -100%;
+  }
+ 
+}
+.social_icon {
+  height: 34px;
+  width: 34px;
+  background: linear-gradient(0deg, #8753a4, #8753a4),
+    linear-gradient(260.94deg, #f07cbd 9.82%, #8753a4 104.93%);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 300ms linear;
+}
+.social_icon:hover {
+  scale: 1.1;
+}
+
+@media (min-width: 576px) {
+  .pt_sm_40 {
+    padding-top: 40px !important;
+  }
+  .text_lg{
+    font-size: 18px;
+  }
+   .text_4xl{
+    font-size: 40px;
+ }
+}
+@media (min-width: 768px) {
+   .text_4xl{
+    font-size: 50px;
+ }
+ .text_lg{
+    font-size: 20px;
+ }
+ .logo {
+  max-width: 300px;
+}
+}
+@media (min-width: 992px) {
+  .text_4xl{
+    font-size: 60px;
+ }
+ .logo {
+
+  max-width: 368px;
+}
+
+}
+@media (min-width: 1200px) {
+ .text_4xl{
+    font-size: 72px;
+ }
+}
