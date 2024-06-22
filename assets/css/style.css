@@ -64,8 +64,10 @@
 .pt_16 {
   padding-top: 16px !important;
 }
-.px_20 {
-  padding: 0 16px;
+.container {
+    max-width: 1320px;
+    margin: auto;
+  padding: 0 20px;
 }
 
 .pt_20 {
@@ -103,10 +105,10 @@
 }
 .music_bottom_icon {
   position: absolute;
-  bottom: 40px;
-  right: 40px;
-  height: 70px;
-  width: 70px;
+  bottom: 20px;
+  right: 20px;
+  height: 40px;
+  width: 40px;
   border-radius: 10px;
   box-shadow: 0px 4px 16.6px 0px #8058b3;
 }
@@ -156,6 +158,10 @@
  .logo {
   max-width: 300px;
 }
+.music_bottom_icon {
+  height: 50px;
+  width: 50px;
+}
 }
 @media (min-width: 992px) {
   .text_4xl{
@@ -164,6 +170,12 @@
  .logo {
 
   max-width: 368px;
+}
+.music_bottom_icon {
+  bottom: 40px;
+  right: 40px;
+  height: 70px;
+  width: 70px;
 }
 
 }
