@@ -78,6 +78,10 @@ body {
 .pt_8 {
   padding-top: 8px;
 }
+.pt_12
+{
+    padding-top: 12px;
+}
 
 .pt_20 {
   padding-top: 20px !important;
@@ -106,13 +110,14 @@ body {
 
 .main_heading {
   padding-top: 8px;
-  padding-bottom: 16x;
   line-height: 110%;
   font-weight: 800 !important;
   background-image: url("../image/text-bg.webp");
   background-repeat: repeat;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
   animation: text-bg 25s linear infinite alternate;
 }
 
